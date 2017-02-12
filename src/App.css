@@ -1,0 +1,160 @@
+@media only screen and (min-width : 320px) and (max-width : 480px) {
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    height: 100%;
+    text-align: center;
+  }
+  h1 {
+    font-size: 1em;
+  }
+  header {
+    padding: 1%;
+  }
+  .main {
+    width: 300px;
+    margin: 0 auto;
+  }
+  article {
+    margin: 0 auto;
+    background-color: orange;
+    height: 500px;
+    border: 4px solid black;
+    overflow: hidden;
+    }
+  .twins {
+    display: inline-block;
+    padding: 1%;
+  }
+  aside, footer, nav {
+  display: none;
+  }
+}
+@media only screen and (min-width : 480px) and (max-width : 800px) {
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 1.25em;
+    height: 100%;
+    text-align: center;
+    background-image: url('http://anewscafe.com/wp-content/uploads/2011/03/rainbow-weather.jpg'); /* no-repeat center center fixed */
+    font-family: 'Arial', sans-serif;
+  }
+  h1 {
+    font-size: 1.5em;
+  }
+  header {
+    padding: 1%;
+  }
+  .main {
+    width: 300px;
+    margin: 0 auto;
+  }
+  input, button {
+    height: 50px;
+    font-size: 36px;
+    text-align: center;
+  }
+  article {
+    margin: 0 auto;
+    height: 400px;
+    overflow: hidden;
+    }
+  .twins {
+    display: inline-block;
+    padding: 1%;
+  }
+  aside nav {
+  }
+  footer {
+  }
+  p {
+    font-size: .75em;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+@media only screen and (min-width : 800px) and (max-width : 3000px) {
+  body {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-size: 1.5em;
+    height: 100%;
+    text-align: center;
+    background-image: url('http://anewscafe.com/wp-content/uploads/2011/03/rainbow-weather.jpg');
+    font-family: 'Arial', sans-serif;
+  }
+  h1 {
+    font-size: 1.75em;
+  }
+  header {
+    padding: 1%;
+  }
+  .main {
+    width: 800px;
+    margin: 0 auto;
+  }
+  input, button {
+    height: 75px;
+    font-size: 36px;
+    padding: 0 1%;
+    text-align: center;
+  }
+  article {
+    margin: 0 auto;
+    height: 500px;
+    overflow: hidden;
+    }
+  .twins {
+    display: inline-block;
+    padding: 1%;
+  }
+  aside {
+
+  }
+  nav {
+  }
+  footer {
+    height: 100px;
+  }
+  p {
+    font-size: .5em;
+  }
+  a {
+    color: black;
+    text-decoration: none;
+  }
+}
+.red {
+    color: red;
+}
+.blue {
+  color: blue;
+}
+.black {
+  color: black;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
