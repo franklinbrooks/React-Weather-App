@@ -7,7 +7,7 @@ class App extends Component {
   constructor() {
     super();
     this.state = {
-      url: `http://api.openweathermap.org/data/2.5/weather?q=${this.userZip},us&appid=43cb3020d8a9ca504a08851610ffebc1`,
+      url: `http://api.openweathermap.org/data/2.5/weather?q=${this.userZip},us&appid={###API KEY GOES HERE###}`,
       data: null,
       userZip: '',
       location: 'Get your weather',
@@ -52,7 +52,6 @@ getWeather() {
     } else {
     temp = (temp * (9/5) - 459.67);
     temp = Math.round(temp * 10) / 10;
-
     let temperature = document.getElementById('temperature');
     if (temp > 90) {  // if temp is lo/hi change class to blue/red
       temperature.className = "red";
@@ -61,7 +60,6 @@ getWeather() {
     } else {
       temperature.className = "black";
     }
-
     return temp;
   }
 }
@@ -79,8 +77,6 @@ getWeather() {
         <div className="main">
           <article>
             <h1>Mobile Weather App</h1>
-
-
             <form>
               <input
                 className="input"
@@ -97,8 +93,6 @@ getWeather() {
                 onClick={this.getWeather}>Get weather
               </button>
             </form>
-
-
               <br />
               <br />
             <div id='location'>
