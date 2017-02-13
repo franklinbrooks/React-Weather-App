@@ -2,7 +2,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 ### Screen Shot 
-  ![Tic Tac Toe Game](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/584a367bc4d9cc23bb84ff10/screenshot.png)
+  ![React Weather App](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/586f038ec4d9cc6e5e82f8f3/screenshot.png)
 
 ### Technologies Used
 - React.JS
@@ -36,13 +36,13 @@ getWeather() {
 
 ````
 ### Build Strategy
-This game uses JavaScript to handle logic, and to bind player mouse clicks to variable asignments. JS also interacts with HTML and CSS to manage visual elements.
+This app was built on the React.js framework, and uses vanilla JavaScript to parse user input make an API call to the Open Weather Database. This then updates state in React and is conditionally rendered to the screen with styling reflecting current weather conditions.  This app is responsive for mobile screens, using media query to determine screen width.
 
 ### Contributing
 This project was developed as part of the Web Development Immersive program at General Assembly in NYC, January 2017.
 
 ### Complications/Future Improvements 
-  1. Complete single-player JavaScript functionality
+  1. Additional conditional logic to further refine conditions rendered to screen. (Examplee: in addition to temperature rendering in different colors for different ranges, add rendering for conditions like rain/snow/etc).
   1. Add CSS to improve user experience
 
 ### Author
