@@ -1,8 +1,10 @@
 # React Weather App
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
+Link to live site [HERE](http://story-teller-fish-64812.bitballoon.com/).
+
 ### Screen Shot 
-  ![React Weather App](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/586f038ec4d9cc6e5e82f8f3/screenshot.png)
+  ![React Weather App](https://353a23c500dde3b2ad58-c49fe7e7355d384845270f4a7a0a7aa1.ssl.cf2.rackcdn.com/585c10d0c4d9cc4ed27b2102/screenshot.png)
 
 ### Technologies Used
 - React.JS
